@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0;url=https://filmingportfolio.wordpress.com">
+    <title>Filming Portfolio</title>
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Filming Portfolio">
+    <meta property="og:description" content="A filming portfolio">
+    <meta property="og:url" content="https://filmingportfolio.wordpress.com">
+    <meta property="og:type" content="website">
+
+    <script>
+        window.location.href = "https://filmingportfolio.wordpress.com";
+    </script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .message {
+            text-align: center;
+        }
+        .spinner {
+            margin-top: 10px;
+            border: 5px solid #ccc;
+            border-top: 5px solid #0073e6;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h1>Redirecting...</h1>
+        <p>If you're not redirected automatically, <a href="https://your-wordpress-link.com">click here</a>.</p>
+        <div class="spinner"></div>
+    </div>
+</body>
+</html>
